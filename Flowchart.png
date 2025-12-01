@@ -1,0 +1,7 @@
+Start → Show Menu → User Choice  
+         ↓
+If Create Account → Enter Details → Save to File
+If Deposit → Enter Acc No → Update Balance
+If Withdraw → Enter Acc No → Check Balance → Update File
+If Check Balance → Display Balance
+If Exit → Stop
