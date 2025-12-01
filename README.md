@@ -63,3 +63,35 @@ Flowchart
           │ No
           ↓
        Invalid Choice → Back to Menu
+---------------------------------------
+ sample output 
+        BANK MANAGEMENT SYSTEM         
+---------------------------------------
+
+1. Create Account
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Exit
+
+Enter your choice: 1
+Enter Name: Ishani
+Enter Account Number: 12345
+Enter Initial Balance: 5000
+Account Created Successfully!
+
+Enter your choice: 2
+Enter Account Number: 12345
+Enter Amount to Deposit: 2000
+Amount Deposited Successfully!
+
+Enter your choice: 4
+Enter Account Number: 12345
+Current Balance: 7000
+
+Enter your choice: 3
+Enter Amount to Withdraw: 1000
+Withdrawal Successful!
+
+Enter your choice: 5
+Thank you for using the Bank Management System!
