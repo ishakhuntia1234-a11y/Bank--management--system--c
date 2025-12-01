@@ -24,3 +24,42 @@ Stop the program
 9. If invalid choice
 Show error message and repeat menu
 10. End
+Flowchart 
+┌──────────┐
+            │   Start   │
+            └─────┬────┘
+                  ↓
+        ┌────────────────────┐
+        │ Display Main Menu  │
+        └─────┬──────────────┘
+              ↓
+      ┌────────────────┐
+      │ Get User Choice│
+      └───┬────────────┘
+          ↓
+   ┌──────────────┐
+   │ Create Acc?  │── Yes ──► Enter Details → Save to File → Back to Menu
+   └──────┬───────┘
+          │ No
+          ↓
+   ┌──────────────┐
+   │ Deposit?     │── Yes ──► Enter Acc No → Add Amount → Update File → Back to Menu
+   └──────┬───────┘
+          │ No
+          ↓
+   ┌──────────────┐
+   │ Withdraw?    │── Yes ──► Enter Acc No → Check Balance → Deduct → Update File → Back to Menu
+   └──────┬───────┘
+          │ No
+          ↓
+   ┌──────────────┐
+   │ Check Bal?   │── Yes ──► Enter Acc No → Show Balance → Back to Menu
+   └──────┬───────┘
+          │ No
+          ↓
+   ┌──────────────┐
+   │ Exit?        │── Yes ──► End
+   └──────┬───────┘
+          │ No
+          ↓
+       Invalid Choice → Back to Menu
