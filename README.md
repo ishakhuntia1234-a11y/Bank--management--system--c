@@ -1,0 +1,1 @@
+This is a Simple Bank Management System project written in C. It allows users to create an account, deposit money, withdraw money, check balance, and store data using file handling. This project is made for our Programming in C subject and helps understand basic concepts like functions, structures, and file operations.
