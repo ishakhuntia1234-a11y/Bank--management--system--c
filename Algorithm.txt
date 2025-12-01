@@ -1,0 +1,30 @@
+ALGORITHM FOR BANK MANAGEMENT SYSTEM
+
+1. Start
+2. Display the menu:
+    1. Create Account
+    2. Deposit Money
+    3. Withdraw Money
+    4. Check Balance
+    5. Display All Accounts
+    6. Exit
+3. Ask user to enter choice
+4. If choice = 1:
+       - Enter account details
+       - Save details to file
+5. If choice = 2:
+       - Enter account number
+       - Search for account in file
+       - Add amount and update file
+6. If choice = 3:
+       - Enter account number
+       - Search for account in file
+       - Subtract amount and update file
+7. If choice = 4:
+       - Enter account number
+       - Search and display account balance
+8. If choice = 5:
+       - Read and display all accounts from file
+9. If choice = 6:
+       - Exit the program
+10. Stop
